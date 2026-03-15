@@ -155,7 +155,7 @@ st.markdown('''
 
 # Sidebar with branding and description
 with st.sidebar:
-    # Logo image removed to prevent PIL.UnidentifiedImageError on Streamlit Cloud
+    st.image('logo2.PNG', width=120)
     st.markdown('<h2 style="font-family:Georgia,serif; color:#fff;">Govttalk</h2>', unsafe_allow_html=True)
     st.markdown('<p style="color:#bdbdbd; font-size:1.1rem;">Your Ugandan Law & Policy Chatbot</p>', unsafe_allow_html=True)
     st.markdown('---')
